@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- daisyUI + font awesome cdn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              accent: "#179800",
+            },
+            fontFamily: {
+              sora: ["Sora", "serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- font awesome cdn  -->
+    <script
+      src="https://kit.fontawesome.com/5606a9f789.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="font-sora">
+    <!-- header section  -->
+    <header
+      class="bg-gradient-to-b from-[#FFFFFF] from-0% to-[#EFEBE3] to-100%"
+    >
+      <!-- navbar  -->
+      <nav class="max-w-screen-xl mx-auto pt-3">
+        <div class="navbar">
+          <div class="navbar-start">
+            <a class="text-xl hidden md:block"
+              ><img src="c2-assets/logo-header.png" alt=""
+            /></a>
+            <a class="text-xl md:hidden"
+              ><img src="c2-assets/logo.png" alt=""
+            /></a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-xl">
+              <li><a>Product</a></li>
+
+              <li><a>Services</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="hidden md:block">
+              <div class="flex gap-4 items-center">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <button
+                  class="px-8 border border-accent py-3 rounded-lg btn-ghost"
+                >
+                  Login
+                </button>
+                <button
+                  class="px-8 bg-accent text-white py-3 rounded-lg btn-ghost"
+                >
+                  Register
+                </button>
+              </div>
+            </div>
+            <div>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <i class="fa-solid fa-bars text-3xl"></i>
+                </div>
+
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 right-[-1px] w-32 p-2 shadow"
+                >
+                  <li><a>Product</a></li>
+
+                  <li><a>Services</a></li>
+                  <li><a>Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main section  -->
+
+    <main></main>
+
+    <!-- footer section  -->
+
+    <footer></footer>
+  </body>
+</html>
